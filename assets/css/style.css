@@ -48,8 +48,8 @@ h2{
     }
 
 .inicio img {
-    width: 100%;
-    height: auto;
+    width: 200px;
+    height: 200px;
 }
 
 .titulos {
@@ -156,14 +156,13 @@ main .grilla img:hover {
 }
 
 .galeria {
-    display: grid;
-    grid-template-columns: repeat(3,auto);
-    grid-template-rows:repeat(2,auto) ;
+    display:grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(2,200px);
     justify-content:center;
     justify-items:center;
-    align-items: center;
-    row-gap: 20px;
-    column-gap: 20px;
+    align-items:center;
+    gap: 20px;
 }
 
 .introduccion {
@@ -181,25 +180,23 @@ main .grilla img:hover {
 
 
 /* media queries */
-@media (max-width: 600px) { }
+@media (max-width: 479px) { 
     .galeria {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px; 
-
-.grilla {
-    display:grid;
-    height: 100%;
-    align-content: space-between;
-    grid-template-rows: 1 fr;
-    grid-template-columns: 1fr;
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(3,auto);
 }
 
-.inicio img {
-    width: 100%;
-    height: auto;
+    .grilla {
+        grid-template-rows:auto;
+        grid-template-columns: repeat(2,auto);
 }
 
+    .inicio img {
+        width: flex auto;
+        height: flex auto;
+        row-gap: 10px;
+        column-gap: 10px;
+}}
 /* .nav {
     display: flex;
     align-items: center;
@@ -213,4 +210,4 @@ main .grilla img:hover {
     margin-left: auto;
     padding: 0;
 }*/
-    }
+    
