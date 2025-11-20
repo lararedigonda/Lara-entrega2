@@ -115,8 +115,6 @@ h2{
     margin-top: 20px;
 }
 
-
-
 .nav-link {
     color: darkmagenta
 }
@@ -193,7 +191,7 @@ main .grilla img:hover {
         grid-template-columns:repeat(2,auto);
 }
 
-    .inicio img {
+    .inicio {
         width:auto;
         height:auto;
         row-gap:10px;
