@@ -180,14 +180,14 @@ main .grilla img:hover {
 }
 
 
-/* media queries
-@media (max-width: 600px){ .gallery
-    {
+ media queries
+@media (max-width: 600px) { 
+    .gallery {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows:repeat(3,150px) ;
     gap: 10px;
-}
+} 
 
 .grilla {
     display:grid;
@@ -195,8 +195,9 @@ main .grilla img:hover {
     align-content: space-between;
     grid-template-rows: repeat(2,200px);
     grid-template-columns: repeat(3,200px)
-}
-.nav {
+}} 
+
+/* .nav {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -208,4 +209,4 @@ main .grilla img:hover {
     gap: 2rem;
     margin-left: auto;
     padding: 0;
-}} */
+}}  */
