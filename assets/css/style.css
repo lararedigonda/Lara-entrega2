@@ -157,8 +157,8 @@ main .grilla img:hover {
 
 .galeria {
     display:grid;
-    grid-template-columns: repeat(3,200px);
-    grid-template-rows: repeat(2,200px);
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
     justify-content:center;
     justify-items:center;
     align-items:center;
@@ -192,8 +192,8 @@ main .grilla img:hover {
 }
 
     .inicio img {
-        width: flex auto;
-        height: flex auto;
+        width: auto;
+        height: auto;
         row-gap: 10px;
         column-gap: 10px;
 }}
