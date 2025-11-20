@@ -180,8 +180,8 @@ main .grilla img:hover {
     background-color: lightgray;
 }
 
-.submit {
-    color: darkmagenta;
+.botonenviar {
+    background-color: rgb(212, 149, 212);
 }
 
 
