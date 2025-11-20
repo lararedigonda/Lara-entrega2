@@ -49,7 +49,7 @@ h2{
 
 .inicio img {
     width: 100%;
-    height: 2auto;
+    height: auto;
 }
 
 .titulos {
@@ -184,16 +184,20 @@ main .grilla img:hover {
 @media (max-width: 600px) { }
     .galeria {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows:repeat(3,150px) ;
+    grid-template-columns: 1fr;
     gap: 10px; 
 
 .grilla {
     display:grid;
     height: 100%;
     align-content: space-between;
-    grid-template-rows: repeat(2,200px);
-    grid-template-columns: repeat(3,200px)
+    grid-template-rows: 1 fr;
+    grid-template-columns: 1fr;
+}
+
+.inicio img {
+    width: 100%;
+    height: auto;
 }
 
 /* .nav {
